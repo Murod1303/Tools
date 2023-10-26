@@ -1,0 +1,112 @@
+@media only screen and (min-width: 600px) {
+  .header {
+    padding-top: 50px;
+  }
+  .site-logo__img {
+    width: 200px;
+    height: 43px;
+  }
+  .header__open-button {
+    display: none;
+  }
+  .header__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 26px;
+  }
+  .todo-section__img-box {
+    height: 500px;
+  }
+  .title {
+    margin-bottom: 40px;
+  }
+  .target__title {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+  .target__link {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .todo-section__img-box {
+    height: 909px;
+  }
+  
+  .todo-section__title {
+    font-size: 48px;
+  }
+  .todo-section__title-box {
+    max-width: 571px;
+    width: 100%;
+    margin-bottom: 73px;
+  }
+  /*  nothing part */
+  .title {
+    margin-bottom: 115px;
+    font-size: 48px;
+  }
+  .nothing__list {
+    justify-content: center;
+    gap: 201px;
+  }
+  .nothing__item:nth-child(1)::before {
+    width: 109px;
+    height: 109px;
+    margin-bottom: 66px;
+  }
+  .nothing__item:nth-child(2)::before {
+    width: 109px;
+    height: 109px;
+    margin-bottom: 66px;
+  }
+  .nothing__item:nth-child(3)::before {
+    width: 109px;
+    height: 109px;
+    margin-bottom: 66px;
+  }
+  .nothing__item:nth-child(4)::before {
+    width: 109px;
+    height: 109px;
+    margin-bottom: 66px;
+  }
+  .nothing__link {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .target__list {
+    flex-direction: row;
+    justify-content:center;
+    gap: 56px;
+  }
+  .target__item:nth-child(2) {
+    max-width: 392px;
+    width: 100%;
+    text-align:start;
+    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__wrapper {
+    padding-right: 0;
+  }
+  .footer__list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer__list--sec {
+    gap: 70px;
+  }
+  .footer__logo , .footer__logo img {
+    width: 40px;
+    height: 40px;
+  }
+}

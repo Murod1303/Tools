@@ -1,0 +1,75 @@
+@use "../mixins" as m;
+/* footer  */
+  
+.footer__wrapper {
+  padding-top: 31px;
+  padding-bottom: 33px;
+  padding-right: 40px;
+  border-top: 2px solid #ff4f5a;
+}
+.footer__list {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+.footer__item-sec {
+  display: flex;
+  flex-direction: row;
+}
+.footer__item-inner {
+  display: flex;
+  align-items: center;
+  max-width: 340px;
+  width: 100%;
+  gap: 28px;
+  margin-bottom: 62px;
+}
+.footer__logo , .footer__logo img {
+  width: 56px;
+  height: 56px;
+}
+
+.footer__txt {
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.copy {
+  text-decoration: none;
+}
+.copy__top {
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.copy__bottom {
+  display: block;
+  color: #737373;
+}
+
+.footer__list--sec {
+  display: flex;
+  gap: 141px;
+}
+.sec__title-inner {
+  @include m.default-text(36px, 24px, 400, normal);
+  display: inline-block;
+  color:  #ff4f5a;
+}
+
+.sec__item-inner-item {
+  @include m.default-text(0px, 20px, 400, normal);
+  display: inline-block;
+  color: #737373;
+}
+.sec ul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}

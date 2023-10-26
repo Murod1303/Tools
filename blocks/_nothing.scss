@@ -1,0 +1,85 @@
+/*  nothing part started  */
+
+.nothing__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 296px;
+}
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+  font-family: "Rosario";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nothing__list {
+  max-width: 1145px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  gap: 18px;
+}
+.nothing__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nothing__item:nth-child(1)::before {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-image: url("../../images/smalltagimage.svg");
+  background-size: cover;
+  content: "";
+}
+.nothing__item:nth-child(2)::before {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-image: url("../../images/writeitimage.svg");
+  background-size: cover;
+  content: "";
+}
+.nothing__item:nth-child(3)::before {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-image: url("../../images/doitimage.svg");
+  background-size: cover;
+  content: "";
+}
+.nothing__item:nth-child(4)::before {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-image: url("../../images/repeatimage.svg");
+  background-size: cover;
+  content: "";
+}
+.nothing__link {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/*  nothing part finished */

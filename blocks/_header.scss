@@ -1,0 +1,79 @@
+@use "../mixins" as m;
+
+.header {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+.header__user {
+  // display: flex;
+  align-items: center;
+  gap: 21px;
+  display: none;
+}
+.header__user-name {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrappernew {
+  align-items: start;
+}
+
+.site-logo {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.site-logo__img {
+  display: block;
+}
+.header__open-button {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../images/icons8-пользователь.gif");
+  background-size: 30px;
+  background-position: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.header__nav {
+  text-align: end;
+  position: relative;
+}
+.header__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  text-align: end;
+}
+.open {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  margin: 0;
+  gap: 10px;
+  top: calc(50% + 24px);
+  left: calc(50% - 32px);
+}
+.header__link {
+  @include m.default-text(0px, 24px, 700, normal);
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+.red {
+  color: #ff4f5a;
+}
+.header__link:hover {
+  @include m.default-text(0px, 24px, 700, normal);
+  color: #ff4f5a;
+}
